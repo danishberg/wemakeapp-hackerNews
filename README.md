@@ -1,4 +1,6 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Hacker News Scraper with Next.js and Tailwind CSS
+
+This project is a web application built with Next.js, TypeScript, and Tailwind CSS that scrapes data from the Hacker News website and displays articles based on different sorting mechanisms.
 
 ## Getting Started
 
@@ -18,10 +20,6 @@ You can start editing the page by modifying `pages/index.js`. The page auto-upda
 
 The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
-
-# Hacker News Scraper with Next.js and Tailwind CSS
-
-This project is a web application built with Next.js, TypeScript, and Tailwind CSS that scrapes data from the Hacker News website and displays articles based on different sorting mechanisms.
 
 ## Requirements
 
