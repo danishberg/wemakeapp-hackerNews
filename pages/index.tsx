@@ -46,7 +46,7 @@ const Home = () => {
       <div className="flex mb-4">
         <button
           onClick={() => handleTabChange('top')}
-          className={`focus:outline-none ${activeTab === 'top' ? 'text-white-600 font-bold' : 'text-gray-600'} mr-100`} // Increased margin-right
+          className={`focus:outline-none ${activeTab === 'top' ? 'text-white-600 font-bold' : 'text-gray-600'} mr-4`} // Increased margin-right
         >
           Top
         </button>
