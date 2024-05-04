@@ -18,7 +18,43 @@ You can start editing the page by modifying `pages/index.js`. The page auto-upda
 
 The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
+
+# Hacker News Scraper with Next.js and Tailwind CSS
+
+This project is a web application built with Next.js, TypeScript, and Tailwind CSS that scrapes data from the Hacker News website and displays articles based on different sorting mechanisms.
+
+## Requirements
+
+### 1. Next.js and TypeScript:
+- Set up a Next.js project configured with TypeScript.
+- Use Server Components for server-side operations where appropriate.
+- Implement the caching mechanism in Next.js 14 to prevent over-fetching of items on every render. This will optimize performance and resource usage.
+
+### 2. Data Scraping:
+- Utilize Cheerio or similar tools to scrape data from the Hacker News website within the Next.js framework.
+- Use `axios` for handling HTTP requests if necessary.
+- Extract relevant details for each article, such as the title, URL, points, number of comments, and the time of posting.
+
+### 3. Data Display with Shadcn/UI and Tailwind CSS:
+- Use Shadcn/UI components to create a modern, responsive, and clean UI.
+- Implement a sticky header with three tabs: Top, Trending, and Fresh.
+- Ensure error handling is robust, especially for network requests and data parsing.
+
+### 4. Sorting Mechanisms:
+- **Top**: Articles should be sorted by the number of points in descending order.
+- **Trending**: Articles should be sorted by the number of comments in descending order.
+- **Fresh**: Articles should be sorted by the most recent postings.
+
+## Getting Started
+
+First, clone the repository:
+
+```bash
+git clone <repository-url>
+
+
 ## Learn More
+
 
 To learn more about Next.js, take a look at the following resources:
 
