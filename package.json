@@ -19,7 +19,8 @@
 		"react": "18.2.0",
 		"react-dom": "18.2.0",
 		"shadcn-ui": "^0.8.0",
-		"ui": "github:shadcn/ui"
+		"ui": "github:shadcn/ui",
+		"esbuild": "0.17.19"
 	},
 	"devDependencies": {
 		"autoprefixer": "^10.4.19",
